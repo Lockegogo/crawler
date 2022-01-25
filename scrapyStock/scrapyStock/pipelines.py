@@ -14,7 +14,7 @@ class ScrapystockPipeline:
 
 class ScrapystockPipeline:
     def open_spider(self, spider):
-        self.f = open('gupiao.txt', 'w')
+        self.f = open('stock.txt', 'w')
 
     def close_spider(self, spider):
         self.f.close()
